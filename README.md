@@ -6,13 +6,21 @@
 
 ## Ready to Play?
 
-Begin your cosmic mission: [Launch Game](Game_Link)
+Begin your cosmic mission: [Launch Game](https://eunjistewart.github.io/spaceman/)
 
 ---
 
 ## Preview
 
-Take a sneak peek into the spaceman's dilemma: [Screenshots](Screenshots_Links)
+Take a sneak peek into the spaceman's dilemma:
+
+<img src="./images/spaceman_screenshot1.jpg" alt="spaceman game" width="450" display="inline-block"/>
+
+<img src="./images/spaceman_screenshot2.jpg" alt="spaceman game" width="450" display="inline-block"/>
+
+<img src="./images/spaceman_screenshot3.jpg" alt="spaceman game" width="450" display="inline-block"/>
+
+<img src="./images/spaceman_screenshot4.jpg" alt="spaceman game" width="450" display="inline-block"/>
 
 ---
 
@@ -27,7 +35,7 @@ Take a sneak peek into the spaceman's dilemma: [Screenshots](Screenshots_Links)
 ## Getting Started
 
 1. Set course for the game link and step into the cosmos.
-   [Begin Your Odyssey](Game_Link)
+   [Begin Your Odyssey](https://eunjistewart.github.io/spaceman/)
 2. Strategically select letters to uncover the hidden word.
 3. A correct guess unveils part of the word, while each misstep propels the spaceman toward oblivion.
 4. You have a mere 6 attempts to complete your linguistic rescue mission!
