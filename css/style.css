@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/cosmonautics.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+
+header.container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.game-title {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 6rem;
+}
+
+.game-subtitle {
+  font-family: "Russo One", sans-serif;
+  font-size: 1.5rem;
+}
+
+.jumbotron {
+  padding: 20px;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+.win-loss-mssg {
+  font-family: "Russo One", sans-serif;
+  font-size: 3.5rem;
+  /*animation: flash 1s 5;*/
+  color: #fac054;
+}
+/*
+@keyframes {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+} */
+
+.guesses-left-mssg-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 80px;
+}
+
+.guesses-left-mssg {
+  font-family: "Russo One", sans-serif;
+  font-size: 1.5rem;
+}
+
+.watch-out-mssg {
+  font-family: "Russo One", sans-serif;
+  font-size: 3rem;
+  color: #6dcbe4;
+}
+
+#num-of-guesses {
+  font-size: 2rem;
+  color: #e95c5c;
+}
+
+.word-underline {
+  font-family: "Russo One", sans-serif;
+  font-size: 4rem;
+}
+
+.revealed-word {
+  color: #e95c5c;
+}
+
+section.letters {
+  margin-bottom: 50px;
+}
+
+section.message-contents {
+  margin-bottom: 20px;
+}
+
+.letters-container {
+  margin-bottom: -10px;
+}
+
+.spaceman-image {
+  width: auto;
+}
+
+.keys {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 10px;
+  padding: 5px 15px;
+  border: 3px solid #000000;
+  border-radius: 15%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.keys:hover {
+  background-color: #2980b9;
+}
+
+.play-again-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  height: 100%;
+  margin-bottom: 80px;
+}
+
+.play-again-btn {
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid #000000;
+  border-radius: 15%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.play-again-btn:hover {
+  background-color: #fac054;
+}
+
+#play-again.play-again-win-or-loss {
+  background-color: #fac054;
+}

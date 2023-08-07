@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="spaceman" content="space-themed word game" />
+    <meta name="Eunji Stewart" content="Eunji Stewart" />
+
+    <!--bootstrap link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <!--google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Oswald&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+
+    <!--js file-->
+    <script defer src="./js/script.js"></script>
+    <title>Save the Spaceman Game</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="display-4 text-center game-title">Save the Spaceman</h1>
+          <p class="lead text-center game-subtitle">
+            Make a guess what might the the word of choice!
+          </p>
+        </div>
+      </div>
+    </header>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-sm-7 text-center jumbotron-left-container-grid">
+          <div class="lead text-center win-loss-message">
+            <p class="win-loss-mssg js-win-loss-mssg"></p>
+          </div>
+          <div>
+            <div class="lead text-center guesses-left-mssg-container">
+              <h2 class="guesses-left-mssg watch-out-mssg">Watch out!</h2>
+              <p class="guesses-left-mssg">
+                Your spaceman's fate hangs by a thread -
+              </p>
+
+              <p class="guesses-left-mssg">
+                only <span id="num-of-guesses">6 guesses left</span>
+              </p>
+              <p class="guesses-left-mssg">
+                before they become a part of the cosmic expanse!
+              </p>
+            </div>
+          </div>
+          <div class="word-underline js-word-underline text-center">
+            <p id="place-holder-for-guessing-word">_ _ _ _ _</p>
+          </div>
+        </div>
+        <div class="col-sm-5 spaceman-image js-spaceman-image">
+          <img src="./images/spaceman-0.png" alt="Initial Spaceman" />
+        </div>
+      </div>
+    </div>
+    <section class="container letters-container">
+      <div class="row">
+        <button class="col-sm-1 keys letter-key" value="q">Q</button>
+        <button class="col-sm-1 keys letter-key" value="w">W</button>
+        <button class="col-sm-1 keys letter-key" value="e">E</button>
+        <button class="col-sm-1 keys letter-key" value="r">R</button>
+        <button class="col-sm-1 keys letter-key" value="t">T</button>
+        <button class="col-sm-1 keys letter-key" value="y">Y</button>
+        <button class="col-sm-1 keys letter-key" value="u">U</button>
+        <button class="col-sm-1 keys letter-key" value="i">I</button>
+        <button class="col-sm-1 keys letter-key" value="o">O</button>
+        <button class="col-sm-1 keys letter-key" value="p">P</button>
+      </div>
+
+      <div class="row">
+        <button class="col-sm-1 keys letter-key" value="a">A</button>
+        <button class="col-sm-1 keys letter-key" value="s">S</button>
+        <button class="col-sm-1 keys letter-key" value="d">D</button>
+        <button class="col-sm-1 keys letter-key" value="f">F</button>
+        <button class="col-sm-1 keys letter-key" value="g">G</button>
+        <button class="col-sm-1 keys letter-key" value="h">H</button>
+        <button class="col-sm-1 keys letter-key" value="j">J</button>
+        <button class="col-sm-1 keys letter-key" value="k">K</button>
+        <button class="col-sm-1 keys letter-key" value="l">L</button>
+      </div>
+
+      <div class="row">
+        <button class="col-sm-1 keys letter-key" value="z">Z</button>
+        <button class="col-sm-1 keys letter-key" value="x">X</button>
+        <button class="col-sm-1 keys letter-key" value="c">C</button>
+        <button class="col-sm-1 keys letter-key" value="v">V</button>
+        <button class="col-sm-1 keys letter-key" value="b">B</button>
+        <button class="col-sm-1 keys letter-key" value="n">N</button>
+        <button class="col-sm-1 keys letter-key" value="m">M</button>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row">
+        <div class="col-sm-12 play-again-container">
+          <button class="js-play-again-btn play-again-btn" id="play-again">
+            Play Again
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
